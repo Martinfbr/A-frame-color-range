@@ -20,7 +20,7 @@ AFRAME.registerComponent('mi_componente', {
     init: function() {
         var el = this.el //toma el elemento del tag
         var interval = this.data.interval //variable de intervalo, toma lo que venga de la propiedad
-        var colors = ["red", "green", "blue", "yellow", "#feadae"] //paleta de colores en rgb, hex, obj
+        var colors = ["red", "green", "blue", "yellow", "#ff8000"] //paleta de colores en rgb, hex, obj
         var i = 0
         el.setAttribute('color', colors[0]) //asignación del color
         this.colorInterval = setInterval(function() { //cada vez que ocurra un intervalo ejecuta la funcion
